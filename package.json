@@ -1,0 +1,36 @@
+{
+  "name": "programming-puzzles",
+  "version": "0.0.1",
+  "description": "Puzzles/algorithms for fun",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suhasdeshpande/puzzles.git"
+  },
+  "keywords": [
+    "programming",
+    "algorithms"
+  ],
+  "author": "Suhas Deshpande",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suhasdeshpande/puzzles/issues"
+  },
+  "homepage": "https://github.com/suhasdeshpande/puzzles#readme",
+  "dependencies": {
+    "jest": "^29.1.2",
+    "typescript": "^4.8.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.1.2",
+    "ts-jest": "^29.0.3"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  }
+}
